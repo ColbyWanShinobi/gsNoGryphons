@@ -1,0 +1,8 @@
+## Interface: 60200
+## Title: gsNoGryphons (GameShaman)
+## Notes: Hides the Gryphons on either side of the default action bars
+## Author: ColbyWanShinobi
+## Version: 1.0
+## X-Category: Interface Enhancements
+
+gsNoGryphons.lua
