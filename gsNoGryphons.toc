@@ -1,4 +1,4 @@
-## Interface: 60200
+## Interface: 74200
 ## Title: gsNoGryphons (GameShaman)
 ## Notes: Hides the Gryphons on either side of the default action bars
 ## Author: ColbyWanShinobi
