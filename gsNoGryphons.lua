@@ -7,10 +7,10 @@ repo: https://github.com/ColbyWanShinobi/gsNoGryphons.git
 --]]
 
 --Hide the Left Gryphon
-MainMenuBarLeftEndCap:Hide()
+MainMenuBarArtFrame.LeftEndCap:Hide()
 
 --Hide the Right Gryphon
-MainMenuBarRightEndCap:Hide()
+MainMenuBarArtFrame.RightEndCap:Hide()
 
 --Print a status message
 print("NoGryphons by GameShaman Loaded. Gryphons have been removed!")
