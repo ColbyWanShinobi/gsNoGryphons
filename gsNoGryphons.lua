@@ -6,8 +6,7 @@ web: gameshaman.com
 repo: https://github.com/ColbyWanShinobi/gsNoGryphons.git
 --]]
 
-print("gsNoGryphons by gameshaman.com");
-print("gsNoGryphons: Addon Loaded");
+print("gsNoGryphons by gameshaman.com - Addon Loaded");
 
 if MainMenuBarLeftEndCap then
     print("gsNoGryphons: Found Classic UI. Removing Gryphons...");
