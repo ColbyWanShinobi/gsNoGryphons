@@ -6,11 +6,26 @@ web: gameshaman.com
 repo: https://github.com/ColbyWanShinobi/gsNoGryphons.git
 --]]
 
---Hide the Left Gryphon
-MainMenuBarArtFrame.LeftEndCap:Hide()
+print("gsNoGryphons by gameshaman.com");
+print("gsNoGryphons: Addon Loaded");
 
---Hide the Right Gryphon
-MainMenuBarArtFrame.RightEndCap:Hide()
+if MainMenuBarLeftEndCap then
+    print("gsNoGryphons: Found Classic UI. Removing Gryphons...");
+    
+    --Hide the Left Gryphon
+    MainMenuBarLeftEndCap:Hide();
+
+    --Hide the Right Gryphon
+    MainMenuBarRightEndCap:Hide();
+else
+    print("gsNoGryphons: Found Retail. Removing Gryphons...");
+
+    --Hide the Left Gryphon
+    MainMenuBarArtFrame.LeftEndCap:Hide();
+
+    --Hide the Right Gryphon
+    MainMenuBarArtFrame.RightEndCap:Hide();
+end
 
 --Print a status message
-print("NoGryphons by GameShaman Loaded. Gryphons have been removed!")
+print("gsNoGryphons: Gryphons have been removed!");
