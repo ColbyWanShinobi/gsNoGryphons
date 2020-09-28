@@ -1,5 +1,5 @@
-## Interface: 80200
-## Title: gsNoGryphons (gameshaman.com)
+## Interface: 90001
+## Title: |cffeda55fgs|rNoGryphons (gameshaman.com)
 ## Notes: Hides the Gryphons on either side of the default action bars
 ## Author: ColbyWanShinobi
 ## Version: 1.0
