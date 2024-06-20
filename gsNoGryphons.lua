@@ -10,7 +10,7 @@ print("gsNoGryphons by gameshaman.com - Addon Loaded");
 
 if MainMenuBarLeftEndCap then
     print("gsNoGryphons: Found Classic UI. Removing Gryphons...");
-    
+
     --Hide the Left Gryphon
     MainMenuBarLeftEndCap:Hide();
 
@@ -20,10 +20,10 @@ else
     print("gsNoGryphons: Found Retail. Removing Gryphons...");
 
     --Hide the Left Gryphon
-    MainMenuBarArtFrame.LeftEndCap:Hide();
+    MainMenuBar.EndCaps.LeftEndCap:Hide();
 
     --Hide the Right Gryphon
-    MainMenuBarArtFrame.RightEndCap:Hide();
+    MainMenuBar.EndCaps.RightEndCap:Hide();
 end
 
 --Print a status message
