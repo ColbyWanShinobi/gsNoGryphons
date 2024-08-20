@@ -1,4 +1,4 @@
-## Interface: 110000
+## Interface: 110002
 ## Title: gsNoGryphons (|cffeda55fgameshaman.com|r)
 ## Notes: Hides the Gryphons on either side of the default action bars
 ## Author: ColbyWanShinobi
