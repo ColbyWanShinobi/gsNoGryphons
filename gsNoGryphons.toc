@@ -1,8 +1,8 @@
-## Interface: 110002
+## Interface: 120000
 ## Title: gsNoGryphons (|cffeda55fgameshaman.com|r)
 ## Notes: Hides the Gryphons on either side of the default action bars
 ## Author: ColbyWanShinobi
-## Version: 1.0
+## Version: 2.0.0
 ## X-Category: Interface Enhancements
 
 gsNoGryphons.lua
